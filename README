@@ -1,0 +1,18 @@
+#COME UTILIZZARE IL CODICE#
+
+Per utilizzare il codice si devono scaricare i quattro dataset su cui è stato svolto l'esperimento e salvarli nella stessa directory del progetto python.
+
+1) "balanca-scale.data" (http://archive.ics.uci.edu/ml/datasets/Balance+Scale)
+2) "house-votes-84.data" (http://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records)
+3) "tic-tac-toe.data" (http://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame)
+4) "breast-cancer.data" (http://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
+
+L'unico file python da modificare, se si volessero cambiare dei parametri globali e/o aggiungere dataset, è il file "datasets.py".
+Per ogni dataset aggiunto, si deve specificare quali colonne rappresentano gli attributi (X) e quale la classe (Y).
+
+
+#FONTI#
+
+- L'algoritmo per il train del Decision Tree è stato ripreso dal libro "Artificial Intelligence: A Modern Approach", Third Edition, capitolo 18.3.3
+- Durante lo svolgimento dell'elaborato ho utilizzato stackoverflow.com e la documentazione di Python (docs.python.org/3/) per trovare alcuni comandi python (i link sono presenti come commento nell'elaborato).
+- I dataset sono ripresi dal sito https://archive.ics.uci.edu/ml/index.php
